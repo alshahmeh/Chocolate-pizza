@@ -1,89 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+ 
+
 
 
 body{
     width: 960px;
     margin: auto;
-
-}
-header p{
-    margin-left: 50px;
-    position: relative;
-    bottom: 60px;
-    width: max-content;
-    text-transform: capitalize;
-    font-family: 'Playfair Display', serif;
-}
-
-.logo{
-    margin-top: 30px;
-}
-
-#medie{
-    position: relative;
-    left: 689px;
-    bottom: 100px;
+   
+   
     
 }
-hr{
-    
-    height: 10px;
-    background-color: rgb(177, 177, 177);
 
-}
-
-.mainp{
-
-    font-size: xx-large;
-    font-weight: bolder;
-    text-transform: capitalize;
-    font-family: 'Playfair Display', serif;
-}
-
-.chocolate{
-    display: grid; grid-template-rows: 50px 50px 635px;
-    gap: 0px;
-    font-family: 'Playfair Display', serif;
-}
-
-.vanessa{
-margin-top: 25px;
-position: relative;
-
-left: 85px;
-bottom: 100px;
-}
-
-.button{
-    position: relative;
-    left: 650px;
-bottom: 50px;
-
-}
-
-footer{
-
-    position: relative;
-    left: 420px;
-}
-
-.lastp{
-    position: relative;
-    right: 90px;
-    margin-top: 20px;
+header * {
+  
+    display: inline;
     
 }
-.hr{
 
-margin-top: 20px;
-margin-bottom: 20px;
+header img  {
+margin-top: 27.5px;
+}
+
+header nav {
+float: right;
+margin-top: -70px;
+}
+
+header h1 {
+    font-family: 'Yellowtail', cursive; 
+    font-size: 5mm;
+    width: 100px;
+}
+
+.hr1 {
+border: 7px dashed 
+} 
+
+main article p {
+color: rgb(209, 209, 209);
+}
+
+main h1 {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 700;
+    font-size: 10mm;
+}
+
+body p * {
+    font-family: 'PT Serif', serif; 
+    font-weight: 300;
+}
+
+header article {
+    margin-bottom: 10px;
+}
+
+.print p { 
+    width: 500px;
+}
+
+.print { 
+    display: inline-block;
+}
+
+.print button { 
+    margin-left: 841px;
+    margin-bottom: 20px;
+}
+
+.list {
+    position: relative;
+}
+
+.list1 {
+    position: absolute;
+    top: 30px;
+    right: 600px;
+    padding: 20px;
+}
+
+checkmark {
+    text-decoration: line-through;
+}
+.n {
+    display: grid; 
+    grid-template-columns: 100px 1fr 200px; 
+
+
+
+} 
+
+
+footer button {
+   
+   margin-top: 20px; 
+   margin-right: 50px;
+   height: 50px; 
+   background-color: rgb(158, 2, 2);
+   color: white;
+
 
 }
 
-.form{
+footer h1 {
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 300;
+}
 
-    display: grid;
-    grid-template-columns: repeat(2,350px);
-    gap: 100px;
-    
+ul { 
+    text-decoration: none; 
+    list-style: none;
+    text-align: center;
+    color:  rgb(209, 209, 209);
+}
+
+.pp {
+    text-align: center;
+    color:  rgb(209, 209, 209);
+}
+
+.imgs {
+    margin-left: 450px;
+}
+
+.hr2 {
+    margin-bottom: 30px;
 }
